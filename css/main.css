@@ -310,6 +310,7 @@ a {
   margin-bottom: 25px;
 }
 .about__bottom {
+  margin-top: 20px;
   display: flex;
   margin-left: 20%;
   gap: 120px;
@@ -319,3 +320,23 @@ a {
   text-align: center;
 }
 /* about styles ends */
+/* popular styles starts */
+.popular {
+  padding: 40px 0;
+  border-top: 2px solid #e1e1e1;
+}
+.popular__bottom {
+  display: flex;
+  margin: 30px 0;
+  align-items: center;
+}
+.popular__card--title {
+  font-size: 20px;
+  font-weight: 500 bold;
+  line-height: 24px;
+  margin: 10px 0;
+}
+.popular__description {
+  font-weight: 400;
+}
+/* popular styles ends */
