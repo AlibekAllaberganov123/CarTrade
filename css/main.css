@@ -471,3 +471,45 @@ del {
   color: #050b20;
 }
 /* contact styles ends */
+/* info styles starst */
+.info {
+  padding: 40px 0;
+  background-color: #f9fbfc;
+}
+.info__top {
+  display: flex;
+  align-items: center;
+  gap: 220px;
+  margin-left: 115px;
+}
+.info__bottom {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info__img {
+  width: 348px;
+  height: 370px;
+}
+.info__bottom--name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.6px;
+}
+.info__bottom--job {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27.75px;
+}
+.info__description {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 40px;
+  width: 779.5172119140625px;
+}
+.info__btn {
+  background-color: #ffffff;
+}
+/* info srtyles ends */
