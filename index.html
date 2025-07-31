@@ -17,19 +17,28 @@
           </div>
           <div class="header__right">
             <ul>
-              <li>Home <img src="./images/header-1.svg" alt="header img" /></li>
-              <li>
-                Listings <img src="./images/header-1.svg" alt="header img" />
-              </li>
-              <li>shop <img src="./images/header-1.svg" alt="header img" /></li>
-              <li>
-                About <img src="./images/header-1.svg" alt="header img" />
-              </li>
-              <li>Popular</li>
-              <li>Type</li>
-              <li>Contact</li>
-              <li>Info</li>
-              <li>Blog</li>
+              <a href="#home">
+                <li>
+                  Home <img src="./images/header-1.svg" alt="header img" /></li
+              ></a>
+              <a href="#listing">
+                <li>
+                  Listings
+                  <img src="./images/header-1.svg" alt="header img" /></li
+              ></a>
+              <a href="#shop">
+                <li>
+                  shop <img src="./images/header-1.svg" alt="header img" /></li
+              ></a>
+              <a href="#about">
+                <li>
+                  About <img src="./images/header-1.svg" alt="header img" /></li
+              ></a>
+              <a href="#popular"> <li>Popular</li></a>
+              <a href="#type"> <li>Type</li></a>
+              <a href="#contact"> <li>Contact</li></a>
+              <a href="#info"><li>Info</li></a>
+              <a href="#blog"><li>Blog</li></a>
             </ul>
             <button class="header__sign section__styles">
               <img src="./images/header-2.svg" alt="header img" />
@@ -102,7 +111,7 @@
     </div>
     <!-- home section ends -->
     <!-- listing section starst -->
-    <section class="listing">
+    <section class="listing" id="listing">
       <div class="container">
         <div class="listing__wrapper">
           <div class="listing__top">
@@ -155,7 +164,7 @@
     </section>
     <!-- listing section ends -->
     <!-- shop section starts -->
-    <section class="shop">
+    <section class="shop" id="shop">
       <div class="container">
         <div class="shop__wrapper">
           <div class="shop__top">
@@ -359,7 +368,7 @@
     </section>
     <!-- shop section ends -->
     <!-- about section starts -->
-    <section class="about">
+    <section class="about" id="about">
       <div class="container">
         <div class="about__wrapper">
           <div class="about__top">
@@ -433,7 +442,7 @@
     </section>
     <!-- about section ends -->
     <!-- popular section starts -->
-    <section class="popular">
+    <section class="popular" id="popular">
       <div class="container">
         <div class="popular__wrapper">
           <div class="popular__top">
@@ -478,7 +487,7 @@
     </section>
     <!-- popular section ends -->
     <!-- type section starts -->
-    <section class="type">
+    <section class="type" id="type">
       <div class="container">
         <div class="type__wrapper">
           <div class="type__top">
@@ -496,6 +505,14 @@
           </div>
           <div class="type__bottom">
             <div class="type__card">
+              <div class="type__card--box">
+                <span class="type__card--span">Sale</span>
+                <img
+                  class="type__card--box-img shop__card--box-img"
+                  src="./images/shop-1.svg"
+                  alt="shop img"
+                />
+              </div>
               <img class="type__img" src="./images/type-1.svg" alt="type img" />
               <div class="type__card--right">
                 <h3 class="type__card--title shop__card--title">
@@ -528,7 +545,15 @@
                 </div>
               </div>
             </div>
-            <div class="type__card">
+            <div class="type__card type__card2">
+              <div class="type__card--box">
+                <span class="type__card--span">Sale</span>
+                <img
+                  class="type__card--box-img shop__card--box-img"
+                  src="./images/shop-1.svg"
+                  alt="shop img"
+                />
+              </div>
               <img class="type__img" src="./images/type-2.svg" alt="type img" />
               <div class="type__card--right">
                 <h3 class="type__card--title shop__card--title">
@@ -563,36 +588,6 @@
             </div>
             <div class="type__card">
               <img class="type__img" src="./images/type-3.svg" alt="type img" />
-              <!-- <div class="type__card--right">
-                <h3 class="type__card--title shop__card--title">
-                  Range Rover SE P440e
-                </h3>
-                <p class="type__p shop__card--p">
-                  2.0 D5 PowerPulse Momentum 5dr AWD… Geartronic Estate
-                </p>
-                <h3 class="type__card--icon shop__card--info--title">
-                  <img src="./images/type.1.svg" alt="type img" />
-                  150 Miles
-                </h3>
-                <h3 class="type__card--icon shop__card--info--title">
-                  <img src="./images/type.2.svg" alt="type img" />
-                  Diesel
-                </h3>
-                <h3 class="type__card--icon shop__card--info--title">
-                  <img src="./images/type.3.svg" alt="type img" />
-                  CVT
-                </h3>
-                <del>$193,400</del>
-                <div class="type__card--price">
-                  <h3 class="type__card--price-title shop__card--price--title">
-                    $120,000
-                  </h3>
-                  <h4 class="type__card--price-subtitle section__styles">
-                    View Details
-                    <img src="./images/about-3.svg" alt="shop img" />
-                  </h4>
-                </div>
-              </div> -->
             </div>
             <div class="type__bottom-control">
               <button class="type__btn shop__btn">
@@ -608,7 +603,7 @@
     </section>
     <!-- type section ends -->
     <!-- contact section starts -->
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container">
         <div class="contact__wrapper">
           <div class="contact__top shop__top">
@@ -678,7 +673,7 @@
     </section>
     <!-- contact section ends -->
     <!-- info section starts -->
-    <section class="info">
+    <section class="info" id="info">
       <div class="container">
         <div class="info__wrapper">
           <div class="info__top">
@@ -715,5 +710,55 @@
       </div>
     </section>
     <!-- info section ends -->
+    <!-- blog section starts -->
+    <section class="blog" id="blog">
+      <div class="container">
+        <div class="blog__wrapper">
+          <div class="blog__top">
+            <h2 class="blog__title title">Latest Blog Posts</h2>
+            <h3 class="blog__subtitle section__styles">
+              View All <img src="./images/listing-1.svg" alt="blog img" />
+            </h3>
+          </div>
+          <div class="blog__bottom">
+            <div class="blog__card">
+              <h3 class="blog__card--subtitle blog__card--subtitle1">Sound</h3>
+              <img class="blog__img" src="./images/blgo-1.svg" alt="blog img" />
+              <h3 class="blog__card--title section__styles">
+                Admin <span class="blog__card--span"></span> November 22, 2023
+              </h3>
+              <p class="blog__card--description">
+                2024 BMW ALPINA XB7 with exclusive details, extraordinary
+              </p>
+            </div>
+            <div class="blog__card">
+              <h3 class="blog__card--subtitle blog__card--subtitle2">
+                Accessories
+              </h3>
+              <img class="blog__img" src="./images/blog-2.svg" alt="blog img" />
+              <h3 class="blog__card--title section__styles">
+                Admin <span class="blog__card--span"></span> November 22, 2023
+              </h3>
+              <p class="blog__card--description">
+                BMW X6 M50i is designed to exceed your sportiest.
+              </p>
+            </div>
+            <div class="blog__card">
+              <h3 class="blog__card--subtitle blog__card--subtitle3">
+                Exterior
+              </h3>
+              <img class="blog__img" src="./images/blog-3.svg" alt="blog img" />
+              <h3 class="blog__card--title section__styles">
+                Admin <span class="blog__card--span"></span> November 22, 2023
+              </h3>
+              <p class="blog__card--description">
+                BMW X5 Gold 2024 Sport Review: Light on Sport
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- blog section ends -->
   </body>
 </html>

@@ -12,6 +12,9 @@
   max-width: 1430px;
   margin: 0 auto;
 }
+html {
+  scroll-behavior: smooth;
+}
 .bg__img {
   background-image: url(../images/home-bg.jpg);
   width: 100%;
@@ -408,11 +411,31 @@ a {
 }
 .type__bottom {
   display: flex;
-  gap: 20px;
+  gap: 60px;
 }
 .type__card {
   display: flex;
   width: 685px;
+  position: relative;
+  right: 260px;
+}
+.type__card2 {
+  position: relative;
+  right: 390px;
+}
+.type__card--box {
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  gap: 150px;
+  position: relative;
+  bottom: 100px;
+  left: 270px;
+}
+.type__card--span {
+  background-color: #405ff2;
+  border-radius: 30px;
+  padding: 7px 17px;
 }
 .type__img {
   border-radius: 16px 0 0 16px;
@@ -445,7 +468,7 @@ del {
   align-items: center;
   position: relative;
   top: 190px;
-  right: 104%;
+  right: 124%;
 }
 /* type styles ends */
 /* contact styles starts */
@@ -512,4 +535,62 @@ del {
 .info__btn {
   background-color: #ffffff;
 }
-/* info srtyles ends */
+/* info styles ends */
+/* blog sytles starts */
+.blog {
+  padding: 40px 0;
+}
+.blog__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blog__card--subtitle {
+  background-color: #ffffff;
+  border-radius: 30px;
+  padding: 10px 15px;
+  line-height: 25.9px;
+
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+  top: 60px;
+  left: 20px;
+}
+.blog__card--subtitle1 {
+  width: 71.97000122070312px;
+}
+.blog__card--subtitle2 {
+  width: 110.37999725341797px;
+}
+.blog__card--subtitle3 {
+  width: 81.44999694824219px;
+}
+.blog__img {
+  border-radius: 30px;
+}
+.blog__card--title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 10px 0;
+}
+.blog__card--span {
+  background-color: #e1e1e1;
+  border-radius: 30px;
+  padding: 4px;
+}
+.blog__card--description {
+  font-size: 20px;
+  font-weight: 500 bold;
+  width: 425.3076477050781px;
+  line-height: 30px;
+}
+/* blog styles ends */
+/* hero styles starts */
+/* hero styles ends */
